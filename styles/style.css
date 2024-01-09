@@ -1,0 +1,83 @@
+/* general styles*/
+
+* {
+  box-sizing: border-box;
+}
+/*Font weight from 100 to 900 thickest*/
+body {
+  font-family: monospace;
+  text-align:center;
+  font-weight:100;
+}
+
+body {
+background-color: #00994d;
+}
+
+h1 {
+  border: 2px solid;
+  width:50%;
+  padding: 1%;
+  text-align: center;
+  color: #1100FF;
+  margin-right: 30px;
+  text-transform: uppercase;
+  text-shadow: 4px 2px 1px #00FF00AA;
+}
+/*default for text in paragraphs, buttons, lists and tables i 16px */
+/*not the best practice since this is not responsive*/
+/*pixels are fixed size units*/
+
+p {
+    color:#a000f2;
+    font-size: 100%;
+    padding: 1%;
+    border: 5px solid;
+    margin: 2%;
+}
+
+img {
+    width:30%;
+    border-radius:100% 100% 80% 80%;
+}
+/*bsed on state: link, visited, hover, active */
+a:link {
+    color:#0000FFDD;
+    font-family:"Georgia";
+    background-color: #AAFFe3;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#0000FFDD;
+    font-family:"Georgia";
+    background-color: #FF0000;
+}
+
+table {
+    border-width:3px;
+    border-style:solid;
+    border-color:#0000FFDD;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right: auto;
+    margin-right: auto;
+}
+th {
+    border: 2px solid #0000EFCC;
+    background-color: #00607A33;
+}
+td {
+    border-style: solid;
+}
+tr:nth-child(odd) {
+    background-color: #0077Fa22;
+}
+tr:nth-child(even) {
+    background-color: #FA770022;
+}
+
+ul {
+    list-style: disc inside none;
+    list-style-image: url("../images/calculator.svg");
+}

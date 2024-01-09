@@ -1,2 +1,2 @@
 # kipu
-A webapp calculator
+The everything calculator
